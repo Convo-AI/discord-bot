@@ -9,20 +9,18 @@ openai_client = AsyncOpenAI(
   base_url="https://api.convoai.tech/v1/"
 )
 
-async def generate_image(prompt, model_id):
+async def generate_image(prompt, model):
   response = await openai_client.images.generate(
-      model=model_id,
+      model=model,
       prompt=prompt,
       n=1,
       size="1024x1024",
   )
   return response.data[0].url or None
 
-async def generate_chat(prompt, model_id):
+async def generate_chat(messages, model):
   chat_completion = await openai_client.chat.completions.create(
-      model=model_id,
-      messages=[
-          {"role": "user", "content": prompt}
-      ],
+      model=model,
+      messages=messages,
   )
   return chat_completion.choices[0].message.content or None

@@ -1,4 +1,5 @@
 import discord.ui
+from utils.openai import generate_image
 import random
 import io
 import requests
