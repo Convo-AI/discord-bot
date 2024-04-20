@@ -78,3 +78,12 @@ class ImageButtons(discord.ui.View):
           await interaction.response.send_message(embed=embed, ephemeral=True)
       else:
           await interaction.response.send_message("The generation time is not available.", ephemeral=True)
+
+  @discord.ui.button(label="Prompt", style=discord.ButtonStyle.grey, emoji="🖍️")
+  async def prompt_button(self, interaction: discord.Interaction, button: discord.ui.Button):
+      embed = discord.Embed(
+          title="🖍️ Prompt",
+          description=f"```{self.prompt}```",
+          color=discord.Color.blue()
+      )
+      await interaction.response.send_message(embed=embed, ephemeral=True)
