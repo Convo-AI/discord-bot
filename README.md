@@ -1,4 +1,4 @@
-![image](https://github.com/Diboxa/discord-bot/assets/154600041/97ceb7cf-0d2e-43b2-a5c4-e97460be3d40)
+![image](https://github.com/Diboxa/discord-bot/assets/154600041/dec43318-f814-4a35-b8b8-09f8146c1b70)
 # AI Companion
 ## ConvoAI Companion is now in your discord server! 🤖 💻
 ### 1. Discord Bot Setup.
