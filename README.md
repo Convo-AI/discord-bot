@@ -7,5 +7,5 @@
 ### 2. ConvoAI Setup
 1. To get the ConvoAI API key, you'll need to join us: https://discord.gg/zPajCk6euz
 2. You should find a command with name /key, from the official ConvoAI discord bot.
-3. Put it in .env, the variable for it is API_KEY
+3. Put it in .env, the variable for it is CONVOAI_API_KEY
 # And then run your all-time best AI chat companion 👑
