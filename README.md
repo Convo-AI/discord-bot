@@ -1,4 +1,6 @@
-# ConvoAI Companion is now in your discord server! 🤖 💻
+![image](https://github.com/Diboxa/discord-bot/assets/154600041/97ceb7cf-0d2e-43b2-a5c4-e97460be3d40)
+# AI Companion
+## ConvoAI Companion is now in your discord server! 🤖 💻
 ### 1. Discord Bot Setup.
 1. To do this you would need to go to https://discord.com/developers/docs/intro
 2. Create a discord bot.
